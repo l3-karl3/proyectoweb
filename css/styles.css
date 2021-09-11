@@ -1,0 +1,73 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+* {
+	margin: 0;
+	/*padding: 0;*/
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: normal;
+	font-size: medium;
+	background-color: rgb(25, 146, 216);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {color:rgb(154, 175, 32);}      /* unvisited link */
+
+a:visited {color:#999;}   /* visited link */
+
+a:hover {color:#9ec939;}     /* mouse over link */
+
+a:active {color:rgb(29, 104, 175);text-decoration:underline;}    /* selected link */
+
+img {
+	border-width: 0px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	border-left-color: #2e2e2e;
+}
+
+td {
+	border-width: 0px;
+}
+
+.logos {
+	text-align: center;
+	vertical-align: central;
+	padding: 15px;
+}
+
+#menu {
+	vertical-align: center;
+	background-color: #961580; /* Cambiar el color del menu */
+}
+
+#header {
+	text-align: center;
+	padding: 30px;
+}
+
+#content {
+	height: auto;
+	padding: 30px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 10px;
+	background-color: #CCC;
+}
+
+
+
+#bullets {
+	list-style-image: url("img/bullet.png");
+}
